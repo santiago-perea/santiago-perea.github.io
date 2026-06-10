@@ -131,13 +131,12 @@ format:
       &nbsp;·&nbsp; <a href="https://orcid.org/0000-0002-2166-2375" target="_blank">ORCID: 0000-0002-2166-2375</a>
     </p>
 
-    <div class="pub-year-header">Accepted</div>
-    <div class="pub-item highlight">
-      <div class="pub-authors">Burivalova, Z., <strong>Perea, S.</strong>, et al.</div>
-      <div class="pub-title">Bioacoustic biodiversity baselines for intact forests. <span class="pub-badge badge-accepted">Accepted · Global Change Biology</span></div>
-    </div>
-
     <div class="pub-year-header">Recent</div>
+    <div class="pub-item">
+      <div class="pub-authors">Buřivalová, Z., <strong>Perea, S.</strong>, Berman, L. M., Sagar, H. S. S. C., Maeda, T. M., Yoh, N., et al.</div>
+      <div class="pub-title">Bioacoustic Baselines for Intact Forests.</div>
+      <div class="pub-journal"><em>Global Change Biology</em>, 32(5), e70917 (2026). <a href="https://doi.org/10.1111/gcb.70917" target="_blank">DOI</a></div>
+    </div>
     <div class="pub-item">
       <div class="pub-authors"><strong>Perea, S.</strong>, de Oliveira, H. F. M., Silva, D. C., de la Sancha, N. U., da Silva, J. M., Domingos, F. M. C. B., &amp; Fandos, G.</div>
       <div class="pub-title">Multidimensional diversity assessment of cave-associated bats in Brazil reveals major conservation gaps.</div>
@@ -158,12 +157,7 @@ format:
       <div class="pub-title">Disentangling winter relationships: Bat responses to forest stand structure, environmental conditions, and prey composition.</div>
       <div class="pub-journal"><em>Forest Ecology and Management</em>, 578, 122484 (2025). <a href="https://doi.org/10.1016/j.foreco.2024.122484" target="_blank">DOI</a></div>
     </div>
-    <div class="pub-item">
-      <div class="pub-authors">Roberson, B. J., <strong>Perea, S.</strong>, DeRose‐Broeckert, D., &amp; Castleberry, S. B.</div>
-      <div class="pub-title">Glowing Green: A Quantitative Analysis of Photoluminescence in Six North American Bat Species.</div>
-      <div class="pub-journal"><em>Ecology and Evolution</em>, 15(8), e71885 (2025). <a href="https://doi.org/10.1002/ece3.71885" target="_blank">DOI</a></div>
-    </div>
-
+    
     <div style="text-align:center; margin-top:36px;">
       <a href="all-publications.html" class="social-btn" style="font-size:0.95rem; padding:10px 28px;">See all 20 publications →</a>
     </div>
@@ -174,6 +168,12 @@ format:
 <h2 class="section-heading">News</h2>
 
     <div class="news-card" style="margin-top:24px;">
+      <div class="news-source">Mongabay · June 9, 2026</div>
+      <div class="news-title">Why conservation urgently needs acoustic baselines</div>
+      <div class="news-desc">Feature on our <strong>Soundscape Baselines Project</strong> and the new <em>Global Change Biology</em> paper, on how bioacoustics can reveal forest changes that satellite images miss. <a href="https://news.mongabay.com/2026/06/how-sound-can-reveal-what-satellite-images-miss/" target="_blank">news.mongabay.com →</a></div>
+    </div>
+    
+    <div class="news-card" style="margin-top:16px;">
       <div class="news-source">Bats Without Borders Webinar · March 25, 2026</div>
       <div class="news-title">Invited Webinar: Bats Without Borders</div>
       <div class="news-desc" style="margin-bottom:12px;">
