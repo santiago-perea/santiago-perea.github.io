@@ -130,7 +130,6 @@ format:
       <a href="https://scholar.google.com/citations?user=Rns6VGQAAAAJ" target="_blank">Google Scholar</a>
       &nbsp;·&nbsp; <a href="https://orcid.org/0000-0002-2166-2375" target="_blank">ORCID: 0000-0002-2166-2375</a>
     </p>
-
     <div class="pub-year-header">Recent</div>
         <div class="pub-item">
       <div class="pub-authors"><strong>Perea, S.</strong>, Rhinehart, T., Bouffaut, L., Araya-Salas, M., Davidson, I., Arcila-Perez, L., Kitzes, J., &amp; Burivalova, Z.</div>
