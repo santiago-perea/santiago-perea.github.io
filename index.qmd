@@ -27,7 +27,7 @@ format:
           <a href="mailto:pereaarroyo@wisc.edu" title="Email"><i class="fas fa-envelope"></i></a>
           <a href="https://twitter.com/perea1332" target="_blank" title="X / Twitter"><i class="fab fa-x-twitter"></i></a>
           <a href="https://scholar.google.com/citations?user=Rns6VGQAAAAJ" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
-          <a href="https://github.com/Perea1332" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/santiago-perea" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
         </div>
       </div>
       <div class="profile-right">
@@ -132,6 +132,11 @@ format:
     </p>
 
     <div class="pub-year-header">Recent</div>
+        <div class="pub-item">
+      <div class="pub-authors"><strong>Perea, S.</strong>, Rhinehart, T., Bouffaut, L., Araya-Salas, M., Davidson, I., Arcila-Perez, L., Kitzes, J., &amp; Burivalova, Z.</div>
+      <div class="pub-title">The role of bioacoustics in achieving global biodiversity goals.</div>
+      <div class="pub-journal"><em>Nature Reviews Biodiversity</em> (2026). <a href="https://doi.org/10.1038/s44358-026-00189-3" target="_blank">DOI</a></div>
+    </div>
     <div class="pub-item">
       <div class="pub-authors">Buřivalová, Z., <strong>Perea, S.</strong>, Berman, L. M., Sagar, H. S. S. C., Maeda, T. M., Yoh, N., et al.</div>
       <div class="pub-title">Bioacoustic Baselines for Intact Forests.</div>

@@ -23,6 +23,12 @@ format:
 <div class="pub-year-header">2026</div>
 
 <div class="pub-item">
+  <div class="pub-authors"><strong>Perea, S.</strong>, Rhinehart, T., Bouffaut, L., Araya-Salas, M., Davidson, I., Arcila-Perez, L., Kitzes, J., &amp; Burivalova, Z.</div>
+  <div class="pub-title">The role of bioacoustics in achieving global biodiversity goals.</div>
+  <div class="pub-journal"><em>Nature Reviews Biodiversity</em> (2026). <a href="https://doi.org/10.1038/s44358-026-00189-3" target="_blank">DOI</a></div>
+</div>
+
+<div class="pub-item">
   <div class="pub-authors">Buřivalová, Z., <strong>Perea, S.</strong>, Berman, L. M., Sagar, H. S. S. C., Maeda, T. M., Yoh, N., et al.</div>
   <div class="pub-title">Bioacoustic Baselines for Intact Forests.</div>
   <div class="pub-journal"><em>Global Change Biology</em>, 32(5), e70917. <a href="https://doi.org/10.1111/gcb.70917" target="_blank">DOI</a></div>
