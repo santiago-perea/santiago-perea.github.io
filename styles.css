@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap');
 /* =============================================
    SANTIAGO PEREA — Personal Academic Website
    Nature-inspired, clean academic aesthetic
@@ -29,7 +30,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', 'Helvetica Neue', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--forest-dark);
 }
 
@@ -57,7 +58,7 @@ h1.title { display: none; }
 
 .navbar-brand {
   font-family: 'Inter', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.1rem;
   letter-spacing: 0.5px;
   color: #fff !important;
@@ -91,7 +92,7 @@ h1.title { display: none; }
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid var(--forest-pale);
+  border: none;
   box-shadow: 0 4px 24px rgba(27, 67, 50, 0.2);
   display: block;
   margin: 0 auto 20px;
@@ -114,7 +115,7 @@ h1.title { display: none; }
 .hero-name {
   font-family: 'Inter', sans-serif;
   font-size: 2.4rem;
-  font-weight: 800;
+  font-weight: 600;
   color: var(--forest-dark);
   margin-bottom: 4px;
   line-height: 1.2;
@@ -176,11 +177,11 @@ h1.title { display: none; }
 .section-heading {
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--forest-dark);
   margin-bottom: 8px;
   padding-bottom: 10px;
-  border-bottom: 3px solid var(--forest-pale);
+  border-bottom: 3px solid var(--forest-mid);
   display: inline-block;
 }
 
@@ -207,11 +208,11 @@ h1.title { display: none; }
   padding: 5px 16px;
   font-family: 'Inter', sans-serif;
   font-size: 0.82rem;
-  font-weight: 600;
+  font-weight: 500;
   border: 1px solid rgba(45, 106, 79, 0.2);
 }
 
-/* ── Education Cards ── */
+/* ── Education ── */
 .edu-item {
   display: flex;
   gap: 16px;
@@ -228,7 +229,7 @@ h1.title { display: none; }
 
 .edu-degree {
   font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.95rem;
   color: var(--text-dark);
 }
@@ -256,6 +257,7 @@ h1.title { display: none; }
 
 .research-card h3 {
   font-size: 1.1rem;
+  font-weight: 600;
   color: var(--forest-dark);
   margin-bottom: 10px;
 }
@@ -278,6 +280,14 @@ h1.title { display: none; }
   line-height: 1.75;
 }
 
+.research-card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
 .tag-pill {
   display: inline-block;
   background: var(--forest-mist);
@@ -290,15 +300,32 @@ h1.title { display: none; }
   margin: 2px;
 }
 
+/* Research grid: 2 cards on top, 3 below */
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.research-grid .research-card {
+  grid-column: span 2;
+  margin-bottom: 0;
+}
+
+.research-grid .research-card:nth-child(-n+2) {
+  grid-column: span 3;
+}
+
 /* ── Publications ── */
 .pub-year-header {
   font-family: 'Inter', sans-serif;
   font-size: 1.3rem;
-  font-weight: 800;
+  font-weight: 600;
   color: var(--forest-dark);
   margin: 36px 0 16px;
   padding-bottom: 6px;
-  border-bottom: 2px solid var(--forest-mist);
+  border-bottom: 3px solid var(--forest-mid);
 }
 
 .pub-item {
@@ -333,7 +360,7 @@ h1.title { display: none; }
 
 .pub-title {
   font-size: 0.96rem;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--text-dark);
   margin-bottom: 4px;
   line-height: 1.5;
@@ -355,14 +382,13 @@ h1.title { display: none; }
   border-radius: 10px;
   margin-left: 8px;
   font-weight: 600;
-  font-style: normal;
 }
 
 .pub-badge {
   display: inline-block;
   font-family: 'Inter', sans-serif;
   font-size: 0.72rem;
-  font-weight: 700;
+  font-weight: 600;
   padding: 2px 8px;
   border-radius: 10px;
   margin-left: 6px;
@@ -413,7 +439,7 @@ h1.title { display: none; }
   margin-bottom: 0;
 }
 
-/* ── Outreach / News ── */
+/* ── News ── */
 .news-card {
   background: #fff;
   border-radius: 10px;
@@ -426,7 +452,7 @@ h1.title { display: none; }
 .news-source {
   font-family: 'Inter', sans-serif;
   font-size: 0.78rem;
-  font-weight: 700;
+  font-weight: 600;
   color: var(--forest-light);
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -434,7 +460,7 @@ h1.title { display: none; }
 }
 
 .news-title {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.96rem;
   color: var(--text-dark);
   margin-bottom: 6px;
@@ -473,7 +499,7 @@ h1.title { display: none; }
 .contact-label {
   font-family: 'Inter', sans-serif;
   font-size: 0.75rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--text-light);
@@ -522,26 +548,6 @@ h1.title { display: none; }
   margin: 0 auto;
 }
 
-/* ── Responsive ── */
-@media (max-width: 768px) {
-  .hero-section {
-    padding: 40px 0 30px;
-  }
-
-  .hero-name {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .hero-title, .hero-institution {
-    text-align: center;
-  }
-
-  .research-card {
-    padding: 20px 18px;
-  }
-}
-
 /* ── Hero Banner ── */
 .hero-banner {
   position: relative;
@@ -578,7 +584,7 @@ h1.title { display: none; }
 
 .hero-text .hero-name {
   font-size: 4.5rem;
-  font-weight: 800;
+  font-weight: 600;
   color: #ffffff;
   text-shadow: 0 2px 20px rgba(0,0,0,0.5);
   margin-bottom: 12px;
@@ -604,7 +610,7 @@ h1.title { display: none; }
 .hero-btn {
   font-family: 'Inter', sans-serif;
   font-size: 0.88rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff !important;
   background: rgba(255,255,255,0.15);
   border: 1.5px solid rgba(255,255,255,0.5);
@@ -622,92 +628,6 @@ h1.title { display: none; }
   text-decoration: none !important;
 }
 
-/* ── Page wrap (constrains content width after hero) ── */
-.page-wrap {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 60px 48px 0;
-}
-
-/* ── Profile section ── */
-.profile-section {
-  display: flex;
-  gap: 48px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 56px;
-  padding-bottom: 48px;
-  border-bottom: 1px solid var(--border);
-}
-
-.profile-left {
-  flex: 0 0 200px;
-  text-align: center;
-}
-
-.profile-right {
-  flex: 1;
-  min-width: 260px;
-}
-
-/* ── Two-column section ── */
-.two-col-section {
-  display: flex;
-  gap: 48px;
-  flex-wrap: wrap;
-  margin-bottom: 56px;
-  padding-bottom: 48px;
-  border-bottom: 1px solid var(--border);
-}
-
-.two-col-section > div {
-  flex: 1;
-  min-width: 240px;
-}
-
-/* ── Research card image ── */
-.research-card-img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 16px;
-}
-
-/* ── Responsive ── */
-@media (max-width: 768px) {
-  .hero-text .hero-name {
-    font-size: 2.2rem;
-  }
-  .hero-subtitle {
-    font-size: 0.95rem;
-  }
-  .hero-banner {
-    height: 70vh;
-  }
-  .profile-left {
-    flex: 0 0 100%;
-  }
-}
-
-/* ── Single-page sections ── */
-.page-section {
-  padding: 28px 0;
-  border-top: 1px solid var(--border);
-}
-
-.section-alt {
-  background-color: #f2f7f4;
-}
-
-.research-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-  gap: 24px;
-  margin-top: 32px;
-}
-
-/* scroll hint arrow on hero */
 .hero-scroll-hint {
   position: absolute;
   bottom: 28px;
@@ -723,13 +643,54 @@ h1.title { display: none; }
   50%       { transform: translateX(-50%) translateY(8px); }
 }
 
-@media (max-width: 768px) {
-  .research-grid {
-    grid-template-columns: 1fr;
-  }
-  .page-section {
-    padding: 52px 0;
-  }
+/* ── Page wrap (constrains content width after hero) ── */
+.page-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 36px 48px 0;
+}
+
+/* ── Single-page sections ── */
+.page-section {
+  padding: 16px 0 36px;
+  border-top: 1px solid var(--border);
+}
+
+.section-alt {
+  background-color: #f2f7f4;
+}
+
+/* ── Profile section ── */
+.profile-section {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.profile-left {
+  flex: 0 0 200px;
+  text-align: center;
+}
+
+.profile-right {
+  flex: 1;
+  min-width: 260px;
+}
+
+/* ── Two-column section (Interests + Education) ── */
+.two-col-section {
+  display: flex;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.two-col-section > div {
+  flex: 1;
+  min-width: 240px;
 }
 
 /* ── Icon links ── */
@@ -759,3 +720,44 @@ h1.title { display: none; }
   transform: translateY(-2px);
 }
 
+/* ── Phones and small screens ── */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 40px 0 30px;
+  }
+  .hero-name {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .hero-title, .hero-institution {
+    text-align: center;
+  }
+  .hero-text .hero-name {
+    font-size: 2.2rem;
+  }
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+  .hero-banner {
+    height: 70vh;
+  }
+  .profile-left {
+    flex: 0 0 100%;
+  }
+  .page-wrap {
+    padding: 28px 20px 0;
+  }
+  .page-section {
+    padding: 16px 0 28px;
+  }
+  .research-card {
+    padding: 20px 18px;
+  }
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+  .research-grid .research-card,
+  .research-grid .research-card:nth-child(-n+2) {
+    grid-column: auto;
+  }
+}
